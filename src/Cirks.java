@@ -16,8 +16,10 @@ public class Cirks {
 	public static void main(String[] args) {
 		int reizes;
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Cik reizes mest kauliòu?");
-		reizes = scan.nextInt();
+		do{
+			System.out.println("Cik reizes mest kauliòu?");
+			reizes = scan.nextInt();
+		}while(reizes<1);
 		mestKaulinu(reizes);
 		scan.close();
 	}
