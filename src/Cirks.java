@@ -27,3 +27,4 @@ public class Cirks {
 		scan.close();
 	}
 }
+//Kļūdas lābošana
