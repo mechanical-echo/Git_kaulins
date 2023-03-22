@@ -1,5 +1,5 @@
 import java.util.Random;
-import java.util.Scanner;
+import java.util.Scanner
 
 public class Cirks {
 	static void mestKaulinu(int reizes) {
@@ -13,17 +13,16 @@ public class Cirks {
 				lielakais = skaitlis;
 			}
 		}
-		System.out.println("Lielâkais skaitlis metienos ir " + lielakais);
+		System.out.println("Lielï¿½kais skaitlis metienos ir " + lielakais);
 	}
 
 	public static void main(String[] args) {
 		int reizes;
 		Scanner scan = new Scanner(System.in);
 		do {
-			System.out.println("Cik reizes mest kauliòu?");
+			System.out.println("Cik reizes mest kauliï¿½u?");
 			reizes = scan.nextInt();
 		} while (reizes < 1);
 		mestKaulinu(reizes);
 		scan.close();
 	}
-}
